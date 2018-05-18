@@ -1,0 +1,49 @@
+body, html {
+    height: 90%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../images/bg.jpg");
+	height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: #fff;
+	top:50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+
+.avatar{
+	width: 10px;
+	height:10px;
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	left: calc(50%-50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size:22px;
+}
+
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
