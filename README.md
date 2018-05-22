@@ -2,7 +2,7 @@
 
 This is an online chat service, I created it as a small project.
 
-To be able to use this, you'll have to create a database called takeluftdb2 that will have 2 tables: posts and users
+To be able to use this, you'll have to create a database called "chatdatabase" that will have 2 tables: posts and users
 The "posts" table will need 4 columns, it's gonna be the table containing the messages from the users:
 - id, int(11), autoincrement, primary
 - username, varchar(200)
