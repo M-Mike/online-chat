@@ -18,7 +18,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>TakeLuft</title>
+    <title>OnlineChat</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,10 +56,11 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
             <a href="https://duckduckgo.com/"><!--Pour permettre le click dessus-->
               <div id="logo" class="navbar-brand">
                 <ul class="logo-list">
-                  <li><span data-hover="T">L</span></li>
-                  <li><span data-hover="A">U</span></li>
-                  <li><span data-hover="K">F</span></li>
-                  <li><span data-hover="E">T</span></li>
+                  <li><span data-hover="M">-</span></li>
+                  <li><span data-hover="@">M</span></li>
+                  <li><span data-hover="G">I</span></li>
+                  <li><span data-hover="I">K</span></li>
+                  <li><span data-hover="C">E</span></li>
                 </ul>
               </div>
             </a>
@@ -99,7 +100,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 
       <div id="chatbox" class="output">
         
-        <!--Codes pour récúpérer les messages de la table "posts" dans le database takeluftdb2-->
+        <!--Codes pour récúpérer les messages de la table "posts" dans le database chatdatabase-->
 
         <?php
           $sql = "SELECT * FROM posts";
