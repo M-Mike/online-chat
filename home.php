@@ -57,10 +57,10 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
               <div id="logo" class="navbar-brand">
                 <ul class="logo-list">
                   <li><span data-hover="M">-</span></li>
-                  <li><span data-hover="@">M</span></li>
-                  <li><span data-hover="G">I</span></li>
-                  <li><span data-hover="I">K</span></li>
-                  <li><span data-hover="C">E</span></li>
+                  <li><span data-hover="@">C</span></li>
+                  <li><span data-hover="G">H</span></li>
+                  <li><span data-hover="I">A</span></li>
+                  <li><span data-hover="C">T</span></li>
                 </ul>
               </div>
             </a>
